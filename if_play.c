@@ -1,6 +1,6 @@
 #include<stdio.h>
-int main()
-{
+int main(){
+	
 	int grade;
 	
 	printf("Enter a number: ");
@@ -12,11 +12,9 @@ int main()
 	}if (grade%5 == 0){
 		printf("Pogi");
 		
-	}if (grade%3%5 == 0){
+	}if (grade%3, 5 == 0){
 		printf("Ed pogi");
-		
-	}else{
-		printf("Not divisible");
+
 	}
 	
 }
